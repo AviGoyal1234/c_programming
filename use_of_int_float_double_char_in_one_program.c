@@ -1,6 +1,8 @@
 #include<stdio.h>
 int main()
 {
+	const char z[] = "Avi Goyal";
+	
 	int a;
 	a = 10;
 	
@@ -14,8 +16,6 @@ int main()
 	f = 50;
 	g = e - f;
 	
-	const char h[] = "Avi Goyal";
-	
-	printf("Name of student = %s\nValue are a = %d\nAddition of two number b + c = %f\nSubstraction of two number = %lf", h,a,d,g);
+	printf("Name of student = %s\nValue are a = %d\nAddition of two number %f + %f = %f\nSubstraction of two number %lf - %lf = %lf", z,a,b,c,d,e,f,g);
 	return 0;
 }
